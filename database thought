@@ -1,0 +1,20 @@
+Documents Table
+
+id (Primary Key, UUID): Unique identifier for the document.
+name (String): The name of the document.
+type (String): Document type (PDF, image, CSV, DOC, etc.).
+content (Blob): The raw content of the document.
+text (Text): Translated or OCR-extracted text from the document.
+Analysis Table
+
+documentId (Foreign Key, UUID): References the Documents table.
+keywords (Text): JSON-encoded list of keywords.
+topics (Text): JSON-encoded list of topics covered.
+summary (Text): Summary of the document's content.
+Tags Table
+
+id (Primary Key, UUID): Unique identifier for the tag.
+keyword (String): The keyword that was identified.
+documentId (Foreign Key, UUID): References the Documents table.
+paragraphIndex (Integer): The index of the paragraph where the keyword was found.
+sentiment (String): Sentiment of the paragraph containing the keyword (positive, neutral, negative).
