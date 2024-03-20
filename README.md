@@ -1,28 +1,16 @@
-MyProject/
-│
-
-├── app/
-
+MyProject/ <br>
+│ <br>
+├── app/ <br>
 │   ├── __init__.py
-
 │   ├── routes.py
-
 │   └── utils/
-
 │       └── nlp.py
-
 │
-
 ├── uploads/sample documents for run this app, but you can diy these documents
-
 │
-
 ├── templates/
-
 │   └── upload.html
-
 │   └─── analyze.html
-
 └── run.py
 
 may add later:
