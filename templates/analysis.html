@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Result</title>
+</head>
+<body>
+    <h2>Document Summary</h2>
+    <p>{{ summary }}</p>
+    
+    <h3>Detected Entities</h3>
+    <ul>
+    {% for entity in entities %}
+        <li>{{ entity }}</li>
+    {% endfor %}
+    </ul>
+
+    <a href="{{ url_for('upload_file') }}">Upload another file</a>
+</body>
+</html>
