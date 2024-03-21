@@ -1,3 +1,20 @@
+march 20th update:<br>
+  #python3 ./nowwithlogin.py(backend)<br>
+  then open another terminal, print:#python3 ./nowclient.py(frontend)<br><br>
+  what i done<br>
+  design api and rest api<br>
+  relieaze a docuent analyzer with login upload and analyze<br><br>
+  what i must finish later<br>
+  database set (have not understand)<br>
+  separate the backend, currently it is a whole backend, not a seperate backend<br><br>
+  what i may finish later if have time<br>
+  text analyzer is too simple, try to also import openai<br>
+  it seems only analyze txt, only make it successful in analyze pdf at least. if have time can consider csv<br>
+
+
+
+
+
 MyProject/<br>
 │<br>
 ├── app/<br>
