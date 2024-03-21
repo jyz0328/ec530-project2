@@ -9,11 +9,14 @@ march 20th update:<br>
   separate the backend, currently it is a whole backend, not a seperate backend<br><br>
   what i may finish later if have time<br>
   text analyzer is too simple, try to also import openai<br>
-  it seems only analyze txt, only make it successful in analyze pdf at least. if have time can consider csv<br>
+  it seems only analyze txt, only make it successful in analyze pdf at least. if have time can consider csv<br><br><br>
 
 
 
 
+
+
+old version here (ignore it)<br>
 
 MyProject/<br>
 │<br>
